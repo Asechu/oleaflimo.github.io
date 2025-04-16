@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Oleaf Limo | Washington DC Limo Service</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      color: #333;
+    }
+
+    header {
+      background-color: #000;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #111;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .section h2 {
+      margin-bottom: 20px;
+      color: #111;
+    }
+
+    .fleet {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .fleet div {
+      background: #fff;
+      padding: 20px;
+      border: 1px solid #ddd;
+      flex: 1 1 45%;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    form button {
+      background-color: #000;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: #111;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Oleaf Limo</h1>
+    <p>Luxury Limo Service in Washington DC</p>
+  </header>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#fleet">Fleet</a>
+    <a href="#contact">Contact</a>
+    <a href="#booking">Book Now</a>
+  </nav>
+
+  <section class="section" id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>✔ Airport Transfers</li>
+      <li>✔ Hourly Limo Service</li>
+    </ul>
+    <p>Whether you're heading to the airport or enjoying a night out in Washington DC, Oleaf Limo offers reliable and stylish transportation tailored to your needs.</p>
+  </section>
+
+  <section class="section" id="fleet">
+    <h2>Our Fleet</h2>
+    <div class="fleet">
+      <div>
+        <h3>Luxury Sedan</h3>
+        <p>Comfortable and sleek, perfect for solo travelers or couples.</p>
+      </div>
+      <div>
+        <h3>Executive SUV</h3>
+        <p>Spacious and stylish, great for small groups or business trips.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="booking">
+    <h2>Request a Booking</h2>
+    <p>Fill out the form below and we’ll get back to you to confirm your ride.</p>
+
+    <form action="https://formsubmit.io/send/oleaflimo@gmail.com" method="POST">
+      <input name="_redirect" type="hidden" value="thank-you.html">
+      <input type="text" name="name" placeholder="Your Full Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <input type="tel" name="phone" placeholder="Your Phone Number" required>
+
+      <label for="date">Pickup Date:</label>
+      <input type="date" name="date" required>
+
+      <label for="time">Pickup Time:</label>
+      <input type="time" name="time" required>
+
+      <textarea name="message" rows="4" placeholder="Pickup address or any special request..." required></textarea>
+      
+      <button type="submit">Request Booking</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Oleaf Limo. All rights reserved.
+  </footer>
+
+</body>
+</html>
